@@ -179,8 +179,8 @@ try:
     idim = bot.get_me().id
     owenbl = requests.get('https://raw.githubusercontent.com/yusufxd/datas/master/blacklist.json').json()
     if idim in owenbl:
-        bot.send_message("me", f"`❌ Owen yöneticileri sizi bottan yasakladı! Bot kapatılıyor...`")
-        LOGS.error("Owen yöneticileri sizi bottan yasakladı! Bot kapatılıyor...")
+        bot.send_message("me", f"`❌ Owen UwUyöneticileri sizi bottan yasakladı! Bot kapatılıyor...`")
+        LOGS.error("Owen yöneticileri OwO sizi bottan yasakladı! Bot kapatılıyor...")
         bot.disconnect()
     # ChromeDriver'ı Ayarlayalım #
     try:
@@ -283,7 +283,7 @@ LOGS.info("+===========================================================+")
 LOGS.info("|                     ✨Owen Userbot✨                       |")
 LOGS.info("+==============+==============+==============+==============+")
 LOGS.info("|                                                            |")
-LOGS.info("Botunuz çalışıyor! Herhangi bir sohbete .alive yazarak Test edin."
+LOGS.info("Botunuz çalışıyor! Herhangi bir sohbete .alive ve beni sev anormal yazarak Test edin."
           " Yardıma İhtiyacınız varsa, Destek grubumuza gelin t.me/OwenSupport")
 LOGS.info(f"Bot versiyonunuz: Owen ==> {OWEN_VERSION}")
 
