@@ -177,7 +177,7 @@ def extractCommands(file):
 try:
     bot.start()
     idim = bot.get_me().id
-    owenbl = requests.get('https://raw.githubusercontent.com/erdewbey/datas/master/blacklist.json').json()
+    owenbl = requests.get('https://raw.githubusercontent.com/yusufxd/Hmmm/main/blacklist.json').json()
     if idim in owenbl:
         bot.send_message("me", f"`❌ Owen yöneticileri sizi bottan yasakladı! Bot kapatılıyor...`")
         LOGS.error("Owen yöneticileri sizi bottan yasakladı! Bot kapatılıyor...")
