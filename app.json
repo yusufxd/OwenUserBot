@@ -11,8 +11,8 @@
     "productivity"
   ],
   "repository": "https://github.com/yusufxd/OwenUserBot",
-  "website":   "https://t.me/OwenProjects",
-  "success_url": "https://t.me/Owenuserbot",
+  "website":   "https://t.me/amsizlarlasikis",
+  "success_url": "https://t.me/amsizlarlasikis",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -69,7 +69,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Fork sağlamanız durumunda repo URL'nizi buraya ekleyin. Varsayılan olarak kendi repo adresimiz eklidir.",
-      "value": "https://github.com/erdewbey/OwenUserBot",
+      "value": "https://github.com/yusufxd/OwenUserBot",
       "required": true
     },
     "COUNTRY": {
